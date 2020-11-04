@@ -7,6 +7,9 @@ import 'package:flutter_auth/constants.dart';
 import 'package:flutter_svg/svg.dart';
 
 class Body extends StatelessWidget {
+
+
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -16,18 +19,22 @@ class Body extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              "WELCOME TO EDU",
-              style: TextStyle(fontWeight: FontWeight.bold),
-            ),
+            /*Text(
+              "RecipeZoid",
+              style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Comfortaa',
+                  fontSize: 30),
+            ),*/
             SizedBox(height: size.height * 0.05),
             SvgPicture.asset(
-              "assets/icons/chat.svg",
+              "assets/icons/circle-cropped.svg",
               height: size.height * 0.45,
             ),
             SizedBox(height: size.height * 0.05),
             RoundedButton(
-              text: "LOGIN",
+              color: Colors.black,
+              text: "LOG IN",
               press: () {
                 Navigator.push(
                   context,

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "542054833532",
+    "firebase_url": "https://recipe-779aa.firebaseio.com",
+    "project_id": "recipe-779aa",
+    "storage_bucket": "recipe-779aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542054833532:android:e3a6e701e94606044d18f9",
+        "android_client_info": {
+          "package_name": "com.shrey.recipezoid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542054833532-cv2stv41j4j2bjfvc5ir5a0mccu8buru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4awEHQvbRkivdJaVp-uFy8V_C7x0XDqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542054833532-cv2stv41j4j2bjfvc5ir5a0mccu8buru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

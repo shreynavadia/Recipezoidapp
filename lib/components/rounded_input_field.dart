@@ -17,6 +17,8 @@ class RoundedInputField extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextFieldContainer(
       child: TextField(
+        textAlign: TextAlign.center,
+        keyboardType: TextInputType.emailAddress,
         onChanged: onChanged,
         cursorColor: kPrimaryColor,
         decoration: InputDecoration(
